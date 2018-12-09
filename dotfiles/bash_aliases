@@ -1,0 +1,41 @@
+alias duall='du -sch .[!.]* * |sort -h'
+alias xo='xdg-open'
+alias m='make'
+alias mw='make watch'
+alias mo='make && xo master.pdf'
+alias pullloop='while true; do git pull; done'
+alias ssh-pass='ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no'
+alias scp-pass='scp -o PreferredAuthentications=password -o PubkeyAuthentication=no'
+
+
+# list recursive using tree
+function lr() {
+    tree -L ${1:-2}
+}
+
+# aau projects
+alias aau-p3r='cd ~/Documents/university/p3/p3gr350rapport'
+alias aau-p3s='cd ~/Documents/university/p3/p3gr350software'
+alias aau-work='cd ~/Documents/university/studentambassador'
+alias aau-sdg='cd ~/Documents/projects/sdg'
+
+# projects
+alias project='cd  ~/Documents/projects'
+alias docker='cd ~/Documents/projects/docker-images'
+alias guides='cd ~/Documents/projects/guides'
+
+
+function f() {
+    local file
+    file=$(fzf +m --height 40% --reverse) && atom "$file"
+}
+
+function fo() {
+    local file
+    file=$(fzf +m --height 40% --reverse) && xo "$file"
+}
+
+function p() {
+    local dir
+    dir=$(find ${1:-.} -type d 2> /dev/null | fzf +m) && cd "$dir"
+}
