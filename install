@@ -2,11 +2,7 @@
 
 set -e
 
-if [ -z "$dotbot_config" ]; then
-    dotbot_config=install.conf.yaml
-fi
-
-CONFIG="$dotbot_config"
+CONFIG="install.conf.yaml"
 DOTBOT_DIR="dotbot"
 
 DOTBOT_BIN="bin/dotbot"
