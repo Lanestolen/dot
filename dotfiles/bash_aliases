@@ -16,13 +16,16 @@ function lr() {
 # aau projects
 alias aau-p3r='cd ~/Documents/university/p3/p3gr350rapport'
 alias aau-p3s='cd ~/Documents/university/p3/p3gr350software'
+alias aau-p4r='cd :~/Documents/university/p4/save-brazil-report'
+alias aau-p4s='cd ~/Documents/university/p4/save-brazil'
 alias aau-work='cd ~/Documents/university/studentambassador'
 alias aau-sdg='cd ~/Documents/projects/sdg'
+alias aau-note='cd ~/Documents/university/itc17-shared/'
 
 # projects
 alias project='cd  ~/Documents/projects'
-alias docker='cd ~/Documents/projects/docker-images'
-alias guides='cd ~/Documents/projects/guides'
+alias docker-images='cd ~/Documents/projects/docker-images'
+alias dotf='cd ~/Documents/projects/dot-files/dotfiles'
 
 
 function f() {
