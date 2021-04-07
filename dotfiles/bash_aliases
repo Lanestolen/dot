@@ -23,9 +23,10 @@ alias aau-p5s='cd ~/go/src/sniffer'
 alias aau-p6r='cd ~/Documents/university/p6/p6-report'
 alias aau-p6s='cd ~/Documents/university/p6/p6-server'
 alias aau-work='cd ~/Documents/university/studentambassador'
-alias aau-sdg='cd ~/Documents/projects/sdg'
 alias aau-note='cd ~/Documents/university/itc17-shared/'
 alias aau-p7r='cd ~/Documents/university/p7/p7-report'
+alias aau-p8r='cd ~/Documents/university/p8/p8-report'
+
 
 # projects
 alias project='cd  ~/Documents/projects'
